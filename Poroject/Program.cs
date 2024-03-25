@@ -1,3 +1,3 @@
 ﻿using Poroject;
 
-Program1.main();
+Programm3.main();
