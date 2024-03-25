@@ -11,7 +11,7 @@ namespace Poroject
         public static void main()
         {
 
-            int[] arr = new int[10]
+            int[] arr = new int[3]
                 .Select(x => new Random().Next(100)).ToArray().Print();
             int[] arr1 = arr.OrderBy(x => x).ToArray();
             int[] arr2 = arr.OrderByDescending(x=>x).ToArray();

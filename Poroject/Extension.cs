@@ -11,7 +11,7 @@ namespace Poroject
         public static T[] Print <T>(this T[] array)
         {
             foreach(var item in array)
-                Console.WriteLine(item + "\t");
+                Console.Write(item + "\t");
             Console.WriteLine();
             return array;
         }
